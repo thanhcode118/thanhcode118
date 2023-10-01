@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+
+int main(){
+ int n;
+ cin>>n;
+int cnt=0;
+while (n!=0){
+    n/=10; //tinh tung chu so, khi nao so do chia bang 0 thi dung lai, tinh tong cac chu so cung can nhu vay
+    cnt++; //tang them 1 don vi khi n khac 0
+}
+cout<<cnt;
+}

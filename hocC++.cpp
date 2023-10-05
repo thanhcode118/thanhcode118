@@ -1,0 +1,24 @@
+#include <cstdlib>
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+#include <ctime>
+using namespace std;
+
+int main(){
+  int a[10];
+  int n;
+  cin>>n;
+    srand(time(NULL)); //CÂU LỆNH RANDOM SỐ 
+  for (int i=0;i<n;i++){
+    a[i]= rand();  // CIN>>A[I] LÀ SỐ RANDOM ĐÓ
+  }
+  for (int i=0;i<n;i++){
+cout<<a[i]<<" ";
+ }
+   cout<<endl;
+    }
+   
+    
+    
+  

@@ -1,8 +1,4 @@
-#include <cstdlib> //// PHẢI CÓ THƯ VIỆN NÀY 
-#include <iostream>
-#include <iomanip>
-#include <math.h>
-#include <ctime> // PHẢI CÓ THƯ VIỆN NÀY 
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){

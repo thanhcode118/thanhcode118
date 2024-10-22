@@ -1,0 +1,21 @@
+- cd:  thay đổi thư mục đang làm việc
+cd .. : quay về thư mục cha 1 đơn vị
+
+- dir : hiển thị hết danh sách tập tin, thư mục bên trong thư mục hiện hành
+
+-mkdir "Folder name" : tạo ra 1 thư mục mới
+
+- touch "Tên file": tạo tập tin mới
+
+- echo : in/xuất nội dung (> chỉ định hướng để in dữ liệu)
+$ echo "text" > "ten file" (ghi đè)
+$ echo "text" >> "ten file" (ghi dòng mới)
+=> Tạo file mới bằng echo: echo "text" > "tên File"
+
+- cat : hiển thị nội dung trực tiếp lên màn hình console
+
+- diff file1 file2 : tìm kiếm sự khác biệt giữa 2 file
+
+- rm (remove): xóa tập tin
+- rm -d "tên Folder": xóa thư mục rỗng
+- rm -r "tên Folder": xóa thư mục không rỗng
